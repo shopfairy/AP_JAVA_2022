@@ -1,17 +1,18 @@
 
 import java.util.Scanner;
 
-    public class Kaveer_1_20221013 {
+    public class Kaveer_2_20221013 {
     	
     public static void main(String[] args){
 	    char op;
 	    boolean opIsValid;
     	Double number1, number2, result;
-    //	boolean infiniteLoop = true;
-   
+    	int numLoop = 5;
+    	int i = 0;
+    	
+		do {
         Scanner input = new Scanner(System.in);
-           
-        do {
+              
             System.out.println("Choose an operator: +, -, *, or /");
             op = input.next().charAt(0);
             opIsValid = (op == '+') || (op == '-') || (op == '*') || (op == '/');
@@ -29,7 +30,6 @@ import java.util.Scanner;
             System.out.println("Enter second number");
             number2 = input.nextDouble();
             
- 
                 switch (op) {
                
                     case '+':
@@ -41,12 +41,14 @@ import java.util.Scanner;
                     case '-':
                     result = number1 - number2;
                     System.out.println(number1 + " - " + number2 + " = " + result);
+                    System.out.println("\b");
                     break;
                    
                    
                     case '*':
                     result = number1 * number2;
                     System.out.println(number1 + " * " + number2 + " = " + result);
+                    System.out.println("\b");
                     break;
                    
                    
@@ -61,7 +63,9 @@ import java.util.Scanner;
                     System.exit(0);
                     break;
                 }
-    		}	while(true); 
+                i++;
+                System.out.println("#"+i+" iteration");
+    		} while (i<numLoop); 
     	}
     	
 }

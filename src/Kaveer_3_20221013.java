@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-    public class Kaveer_2_20221014 {
+    public class Kaveer_3_20221013 {
     	
     public static void main(String[] args){
 	    char op;
@@ -10,8 +10,7 @@ import java.util.Scanner;
     	int numLoop = 5;
     	int i = 0;
     	
-		do {
-   
+		for(;;){
         Scanner input = new Scanner(System.in);
               
             System.out.println("Choose an operator: +, -, *, or /");
@@ -66,7 +65,6 @@ import java.util.Scanner;
                 }
                 i++;
                 System.out.println("#"+i+" iteration");
-    		} while (i<numLoop); 
+    		}
     	}
-    	
 }
