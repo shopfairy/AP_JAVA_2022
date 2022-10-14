@@ -1,4 +1,4 @@
-
+//Infinite loop #2. for(;;) <--(int i = 0 ; i < max ; i++)
 import java.util.Scanner;
 
     public class Kaveer_3_20221013 {
@@ -7,7 +7,7 @@ import java.util.Scanner;
 	    char op;
 	    boolean opIsValid;
     	Double number1, number2, result;
-    	int numLoop = 5;
+//    	int numLoop = 5;
     	int i = 0;
     	
 		for(;;){

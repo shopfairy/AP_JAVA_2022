@@ -1,4 +1,4 @@
-
+//Infinite loop #1. do{}while(true)
 import java.util.Scanner;
 
     public class Kaveer_1_20221013 {
@@ -61,7 +61,7 @@ import java.util.Scanner;
                     System.exit(0);
                     break;
                 }
-    		}	while(true); 
+    		}while(true);
     	}
     	
 }

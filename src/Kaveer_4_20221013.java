@@ -1,3 +1,4 @@
+//Infinite loop #3. while(true) 
 
 import java.util.Scanner;
 
@@ -7,10 +8,8 @@ import java.util.Scanner;
 	    char op;
 	    boolean opIsValid;
     	Double number1, number2, result;
-    	int numLoop = 5;
-    	int i = 0;
     	
-		do {
+		while(true){
         Scanner input = new Scanner(System.in);
               
             System.out.println("Choose an operator: +, -, *, or /");
@@ -63,9 +62,7 @@ import java.util.Scanner;
                     System.exit(0);
                     break;
                 }
-                i++;
-                System.out.println("#"+i+" iteration");
-    		} while (i<numLoop); 
+    		} 
     	}
     	
 }
