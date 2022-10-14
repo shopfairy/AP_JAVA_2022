@@ -1,4 +1,4 @@
-public class NestedLoop {
+public class NestedLoop_1 {
 
 	public static void main(String[] args) {
 		
@@ -16,7 +16,7 @@ public class NestedLoop {
 		String singleLine = "";
 		String chant = "";
 
-		for(int i=0;i<hipTimes;i++){
+		for(int j=0;j<hipTimes;j++){
 			//each loop, nice and warm "Hip " is added!!
 			hipChant = hipChant+chantComp[0];	
 		}
