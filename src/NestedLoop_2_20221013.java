@@ -1,4 +1,4 @@
-public class NestedLoop_2 {
+public class NestedLoop_2_20221013 {
 
 	public static void main(String[] args) {
 		
