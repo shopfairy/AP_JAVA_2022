@@ -12,13 +12,20 @@ import java.util.Scanner;
     	
     	//what would you do? if you want to print 8,6,4,2
     	for(int index=X.length-1;index>0;index--) {
-    		System.out.println("X["+index+"]="+ X[index]+"\n");	
-    		index--; // instead of use two index--, you can also write index = index-2    	
+    		System.out.println("X["+index+"]="+ X[index]);	
+    		index--;   	
     	}
     	
     	//Honestly, I would just use 
     	for(int index=X.length-1;index>0;index=index-2) {
-    		System.out.println("No index-- in for loop, X["+index+"]="+ X[index]+"\n");	
+    		System.out.println("No index-- in for loop, X["+index+"]="+ X[index]);	
+    	}
+    	
+    	//advance question: what would you do, if you want to print 8,5,2???
+       	for(int index=X.length-1;index>0;index--) {
+    		System.out.println("X["+index+"]="+ X[index]);	
+    		index=index-2;
+    			
     	}
     }	
 }

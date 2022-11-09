@@ -13,7 +13,7 @@ import java.util.Scanner;
     	//what would you do? if you want to print 7,4,1
     	for(int index=X.length-1;index>0;index--) {
     		index--;
-    		System.out.println("X["+index+"]="+ X[index]+"\n");	
+    		System.out.println("X["+index+"]="+ X[index]);	
     		index--;
 
     	}
