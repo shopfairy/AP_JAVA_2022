@@ -17,11 +17,11 @@
     	for(int i=0; i<i_loopTimes; i++) {
     		//now you want add one more "row" for 1 outer for-loop  
         	for(int j=0; j<i; j++) {
-        	//System.out.print("row ");
-        	System.out.print(" ");
+        	System.out.print("row ");
+        	//System.out.print(" ");
         	}
-        	System.out.println(name.charAt(i));
-        	//System.out.println("column");
+        	//System.out.println(name.charAt(i));
+        	System.out.println("column");
     	}
   		}  	 
    	}
