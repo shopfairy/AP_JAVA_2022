@@ -31,7 +31,7 @@ public class StationaryClass {
     	System.out.println(make + " has " + numberOfColours + " colours"+"("+size+"mm) ");
 	}
 	
-	public void isBallPiint() {
+	public void isBallPoint() {
 		if(ballPoint) {
 			System.out.println("This is a ballpoint pen\n");
 		}

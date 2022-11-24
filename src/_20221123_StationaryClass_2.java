@@ -13,7 +13,7 @@ import java.util.Scanner;
     	bic.ballPoint = true;
     	bic.size = 0.5;    	
     	System.out.println(bic.make + " has " + bic.numberOfColours + " colour");
-    	bic.isBallPiint();
+    	bic.isBallPoint();
 
     	//constructor with 2 arguments
     	StationaryClass sharpie = new StationaryClass("Sharpie", 2);	
@@ -21,7 +21,7 @@ import java.util.Scanner;
     	
     	//constructor with 4 arguments
     	StationaryClass paperMate = new StationaryClass("PaperMate", 6, true, 0.5);	
-    	paperMate.isBallPiint();
+    	paperMate.isBallPoint();
 
 }
     }
