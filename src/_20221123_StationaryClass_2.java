@@ -6,7 +6,7 @@ import java.util.Scanner;
     public static void main(String[] args){
     	
     	
-    	//construct without an arguments
+    	//constructor without an arguments
     	StationaryClass bic = new StationaryClass();
       	bic.make = "BIC";
     	bic.numberOfColours = 1;
