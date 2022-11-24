@@ -6,7 +6,7 @@ import java.util.Scanner;
     public static void main(String[] args){
     	
     	
-    	int[] Array = {4,2,3,1,6};
+    	int[] Array = {1,2,3,4,6};
     	//creating a new arraylist
     	int newArray[] = new int[Array.length+1];
     	
@@ -21,7 +21,7 @@ import java.util.Scanner;
       	  System.out.println(newArray[i]);
          }	
     	
-    	//sorting
+    	//bubble sorting
     	for (int i = 0; i < newArray.length; i++)   
     	{  
     	for (int j = i + 1; j < newArray.length; j++)   
