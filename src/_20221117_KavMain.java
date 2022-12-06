@@ -7,7 +7,7 @@ import java.util.Scanner;
     	
     	_20221117_KavClass kavClass = new _20221117_KavClass();
     	
-    	kavClass.age = 15;
+    	kavClass.age= 15;
     	kavClass.fname = "Kav";
     	kavClass.lname = "Awesome";
     	kavClass.hasPet = true;
