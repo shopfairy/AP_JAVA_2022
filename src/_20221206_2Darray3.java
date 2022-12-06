@@ -2,7 +2,6 @@ import java.util.Arrays;
 
 import com.sun.net.httpserver.Authenticator.Result;
 
-//how to keep the changes: ArrayList
 public class _20221206_2Darray3 {
     	
     public static void main(String[] args){

@@ -1,6 +1,5 @@
 import java.util.Arrays;
 
-//how to keep the changes: ArrayList
 public class _20221206_2Darray {
     	
     public static void main(String[] args){
